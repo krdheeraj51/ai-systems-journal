@@ -80,12 +80,10 @@ Measuring model performance is a critical part of the machine learning workflow.
 
 In supervised learning, specifically classification, we want to know how often our model gets the answer right.
 
-* 
-**Accuracy**: This is a common metric used to quantify performance.
+* **Accuracy**: This is a common metric used to quantify performance.
 
 
-* 
-**Formula**: Accuracy is calculated as the number of correct predictions divided by the total number of observations.
+* **Formula**: Accuracy is calculated as the number of correct predictions divided by the total number of observations.
 
 
 
@@ -95,16 +93,13 @@ In supervised learning, specifically classification, we want to know how often o
 
 A major pitfall in machine learning is measuring accuracy on the same data used to train the model. This doesn't show if the model can **generalize** to new data. Instead, we follow a specific process:
 
-1. 
-**Split data**: Divide your dataset into two pieces: a **Training set** and a **Test set**.
+1. **Split data**: Divide your dataset into two pieces: a **Training set** and a **Test set**.
 
 
-2. 
-**Fit**: Train the classifier only on the training set.
+2. **Fit**: Train the classifier only on the training set.
 
 
-3. 
-**Evaluate**: Calculate the accuracy by checking predictions against the "unseen" test set.
+3. **Evaluate**: Calculate the accuracy by checking predictions against the "unseen" test set.
 
 
 
@@ -126,8 +121,7 @@ print(knn.score(X_test, y_test))
 
 ```
 
-* 
-**stratify=y**: This ensures the split reflects the proportion of labels in the original dataset.
+* **stratify=y**: This ensures the split reflects the proportion of labels in the original dataset.
 
 ---
 
@@ -137,29 +131,24 @@ We typically use the `matplotlib` library to create this plot. Here is the proce
 
 ### 🛠️ Plotting Steps in Python
 
-1. 
-**Initialize dictionaries**: Create empty dictionaries to store your training and testing accuracies.
+1. **Initialize dictionaries**: Create empty dictionaries to store your training and testing accuracies.
 
 
-2. 
-**Generate a range**: Use `np.arange(1, 26)` to create a list of  values to test.
+2. **Generate a range**: Use `np.arange(1, 26)` to create a list of  values to test.
 
 
-3. 
-**Loop and fit**: For each , instantiate the model, fit it to the training data, and record the scores for both the training and test sets.
+3. **Loop and fit**: For each , instantiate the model, fit it to the training data, and record the scores for both the training and test sets.
 
 
 4. **Create the plot**:
-* 
-`plt.plot()`: Plot the training accuracy and testing accuracy against the number of neighbors.
+
+* `plt.plot()`: Plot the training accuracy and testing accuracy against the number of neighbors.
 
 
-* 
-`plt.xlabel()` and `plt.ylabel()`: Label your axes "Number of Neighbors" and "Accuracy".
+* `plt.xlabel()` and `plt.ylabel()`: Label your axes "Number of Neighbors" and "Accuracy".
 
 
-* 
-`plt.legend()`: Add a legend to distinguish between the two lines.
+* `plt.legend()`: Add a legend to distinguish between the two lines.
 
 
 
@@ -167,13 +156,10 @@ We typically use the `matplotlib` library to create this plot. Here is the proce
 
 ### 📉 Understanding the Results
 
-* 
-**Overfitting**: When  is small, training accuracy is very high (often 1.0), but test accuracy may be lower because the model is too complex.
+* **Overfitting**: When  is small, training accuracy is very high (often 1.0), but test accuracy may be lower because the model is too complex.
 
 
-* 
-**Underfitting**: When  is large, the model becomes too simple, and both training and test accuracy might decrease.
+* **Underfitting**: When  is large, the model becomes too simple, and both training and test accuracy might decrease.
 
 
-* 
-**The "Sweet Spot"**: We look for the  value where **Testing Accuracy** is at its highest point.
+* **The "Sweet Spot"**: We look for the  value where **Testing Accuracy** is at its highest point.
