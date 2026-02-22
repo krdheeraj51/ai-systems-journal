@@ -83,6 +83,8 @@ print(f"RMSE: {root_mean_squared_error(y_test, y_pred)}")
 
 ---
 
+Model performance can depend heavily on exactly how we split the data. If we get a "lucky" or "unlucky" split, the performance score might not represent how the model will actually behave on totally new data.
+
 Cross-validation solves this by using **multiple splits**.
 
 ### 🧩 The Mechanics: k-fold CV
