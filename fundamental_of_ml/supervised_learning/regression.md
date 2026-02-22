@@ -29,8 +29,8 @@ How do we choose the "best" line? We use a loss function to minimize error.
 
 
 * **OLS Objective**: Aims to minimize the **Residual Sum of Squares (RSS)**:
-
-                 $$RSS = \sum_{i=1}^{n}(y_i - \hat{y}_i)^2$$
+  
+![RSS Formula](https://latex.codecogs.com/png.latex?RSS=\sum_{i=1}^{n}(y_i-\hat{y}_i)^2)
 
 ---
 
