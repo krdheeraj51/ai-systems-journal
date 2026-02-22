@@ -87,4 +87,3 @@ print(f"RMSE: {root_mean_squared_error(y_test, y_pred)}")
 
 Model performance is often dependent on the specific way data is split. To ensure our model is truly reliable and representative, the next step is **Cross-validation**, which splits the data into multiple "folds" to get a more robust estimate of performance.
 
-Would you like me to create a summary table comparing **Ridge** and **Lasso** regularization for your notes?
