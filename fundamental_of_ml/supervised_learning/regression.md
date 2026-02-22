@@ -7,47 +7,30 @@ Linear regression is used to model the relationship between a **dependent variab
 * **Definition**: Models the relationship between two variables by fitting a linear equation to observed data.
 
 
-* **The Equation**: .
-
-
-* ****: The target variable.
-
-
-* ****: The single feature.
-
-
-* ****: The slope (coefficient).
-
-
-* ****: The intercept.
-
-
-
-
+* **The Equation**: $y = ax + b$.
+  * $y$: The target variable.
+  * $x$: The single feature.
+  * $a$: The slope (coefficient).
+  * $b$: The intercept.
+ ![simple_liner-regression](https://github.com/user-attachments/assets/0e10a540-7db8-4088-82bc-7b01906c72bf)
 
 ### Multiple Linear Regression
 
 * **Definition**: An expansion of regression to include scenarios with more than one feature.
-
-
-* **The Equation**: .
-
-
-* **Key Concept**: Each feature is assigned its own coefficient, allowing the model to handle more complex relationships.
-
-
-
+* **The Equation**: $y = a_1x_1 + a_2x_2 + ... + a_nx_n + b$.
+* **Key Concept**: Each feature is assigned its own coefficient, allowing the model to handle more complex relationships
 ---
 
 ## ⚙️ 2. Mechanics: Ordinary Least Squares (OLS)
 
 How do we choose the "best" line? We use a loss function to minimize error.
 
-* 
-**Residuals**: The difference between the observed value and the predicted value.
+* **Residuals**: The difference between the observed value and the predicted value.
 
 
 * **OLS Objective**: Aims to minimize the **Residual Sum of Squares (RSS)**:
+
+                 $$RSS = \sum_{i=1}^{n}(y_i - \hat{y}_i)^2$$
 
 ---
 
