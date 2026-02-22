@@ -83,7 +83,33 @@ print(f"RMSE: {root_mean_squared_error(y_test, y_pred)}")
 
 ---
 
-### What's Next?
+Cross-validation solves this by using **multiple splits**.
 
-Model performance is often dependent on the specific way data is split. To ensure our model is truly reliable and representative, the next step is **Cross-validation**, which splits the data into multiple "folds" to get a more robust estimate of performance.
+### 🧩 The Mechanics: k-fold CV
 
+The most common approach is **k-fold cross-validation**. Here is the general process:
+
+  1. **Split** the data into  equal groups, called **folds**.
+  2. **Train** the model on  folds and **test** it on the remaining fold.
+  3. **Repeat** this process until every fold has served as the test set exactly once.
+  4. **Average** the results to get a more robust performance metric.
+
+
+
+### 💻 Implementation in Scikit-Learn
+
+To do this in Python, we use `cross_val_score`. Instead of getting one single  score, we get an array of scores—one for each fold.
+
+```python
+from sklearn.model_selection import cross_val_score, KFold
+
+# 1. Define how many folds (e.g., 6)
+[cite_start]kf = KFold(n_splits=6, shuffle=True, random_state=42) [cite: 445]
+
+# 2. Compute the scores
+[cite_start]cv_results = cross_val_score(reg, X, y, cv=kf) [cite: 447]
+
+# 3. Look at the mean and standard deviation
+[cite_start]print(np.mean(cv_results), np.std(cv_results)) [cite: 453]
+
+```

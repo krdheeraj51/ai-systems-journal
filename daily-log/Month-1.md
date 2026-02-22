@@ -1,5 +1,3 @@
 | Day | Date     | Topic Covered                        | Activity Type     | Resource Used               | GitHub Commit/Notes              |
 |-----|----------|--------------------------------------|-------------------|-----------------------------|----------------------------------|
-| 1   | Jul 26   |           |     |  |
-| 2   | Jul 27   |            |   |       |    |
-| 3   | Jul 28   |         |    |        |  |
+| 1   | Feb 22   |     Lenear Regresssion      |   Notes and Practice  | Gemini ,DataCamp   | https://github.com/krdheeraj51/ai-systems-journal/blob/main/ai-ml/fundamental_of_ml/supervised_learning/regression.md |
