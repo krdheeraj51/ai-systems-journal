@@ -40,15 +40,9 @@ To assess how well your model generalizes to unseen data, we use specific metric
 
 | Metric | Description |
 | --- | --- |
-| ** (R-squared)** | Quantifies the variance in target values explained by the features (ranges from 0 to 1).
-
- |
-| **MSE** | Mean Squared Error; measured in target units squared.
-
- |
-| **RMSE** | Root Mean Squared Error; the square root of MSE, measuring error in the same units as the target variable.
-
- |
+| **R² (R-squared)** | Quantifies the variance in target values explained by the features (ranges from 0 to 1). |
+| **MSE** | Mean Squared Error; measured in target units squared. |
+| **RMSE** | Root Mean Squared Error; the square root of MSE, measuring error in the same units as the target variable. |
 
 ---
 
