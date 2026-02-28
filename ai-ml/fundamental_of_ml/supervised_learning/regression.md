@@ -116,3 +116,89 @@ from sklearn.model_selection import cross_val_score, KFold
 [cite_start]print(np.mean(cv_results), np.std(cv_results)) [cite: 453]
 
 ```
+--- 
+Regularization is a technique used to prevent **overfitting** by penalizing models that rely too heavily on any single feature or have excessively large coefficients. In linear regression, this helps the model generalize better to new data.
+
+---
+
+## 🏗️ What is Regularization?
+
+Standard linear regression tries to minimize "loss" (the distance between predictions and actual values). Regularization adds an extra term to this loss function that penalizes large coefficients. This encourages the model to keep the coefficients as small as possible.
+
+### 1. Ridge Regression 🏔️
+
+Ridge regression (also known as $L2$ regularization) adds a penalty term proportional to the **square** of the magnitude of the coefficients.
+
+* **Function**: It shrinks all coefficients toward zero, but they rarely reach exactly zero.
+* **Use Case**: It is great when you have many features that all contribute a little bit to the output.
+
+### 🏔️ Ridge Regression Example: Preventing Overpowering Features
+
+Ridge regression is used to ensure no single feature "overpowers" the model.
+
+* **The Scenario**: Imagine we have several health indicators that all relate to glucose.
+* **The Code**: In `scikit-learn`, we iterate through different **alpha** values to see how they affect model performance:
+```python
+from sklearn.linear_model import Ridge
+for alpha in [0.1, 1.0, 10.0, 100.0, 1000.0]:
+    ridge = Ridge(alpha=alpha)
+    ridge.fit(X_train, y_train)
+    # Scores are recorded for each alpha to find the best fit
+
+```
+
+* **The Outcome**: As alpha increases, the model's coefficients are pushed closer to zero, which helps the model become more general and less likely to overfit the specific noise in the training data.
+
+--- 
+### 2. Lasso Regression 🎯
+
+Lasso regression ($L1$ regularization) adds a penalty term proportional to the **absolute value** of the magnitude of the coefficients.
+
+* **Function**: It can shrink some coefficients all the way to **zero**.
+* **Feature Selection**: Because it can zero out coefficients, Lasso effectively "selects" the most important features and ignores the rest.
+
+### 🎯 Lasso Regression Example: Automatic Feature Selection
+
+Lasso is powerful because it can tell us which features actually matter for our prediction.
+
+* **The Scenario**: We want to know which of the features (like `bmi`, `age`, or `triceps` thickness) are the most important predictors for glucose.
+* **The Code**:
+```python
+from sklearn.linear_model import Lasso
+X = diabetes_df.drop("glucose", axis=1).values
+y = diabetes_df["glucose"].values
+lasso = Lasso(alpha=0.1)
+lasso_coef = lasso.fit(X, y).coef_
+
+```
+
+
+* **The Result**: When we plot these coefficients, we see that most are reduced to **zero**. Only the most impactful features, such as **BMI**, remain non-zero. This effectively "selects" BMI as a key predictor while ignoring less relevant data.
+
+---
+
+### Let's look closer at the Lasso output!
+---
+
+## 🎛️ Choosing the Right Alpha
+
+In both Ridge and Lasso, we use a parameter called **alpha** ($\alpha$) to control the "strength" of the regularization.
+
+* **Alpha = 0**: The model is just standard linear regression (no penalty).
+* **High Alpha**: The penalty is very strong, leading to underfitting (coefficients are too small).
+* **The Goal**: We need to find an alpha that balances the two, often using a technique like a complexity curve (plotting accuracy vs. alpha).
+
+---
+
+To clarify how **Ridge** and **Lasso** work in practice, let's look at the specific examples from your document using the `diabetes` dataset. In this dataset, the goal is to predict blood glucose levels using various features like BMI, age, and insulin.
+
+
+
+
+
+
+
+
+In the example above, Lasso found that **BMI** was a dominant predictor for glucose levels.
+
+If you were to **increase the alpha** value in that Lasso model even further, what do you think would happen to the number of features that have a coefficient of zero? Would there be **more** zeros or **fewer** zeros?
