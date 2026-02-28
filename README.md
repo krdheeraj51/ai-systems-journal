@@ -1,14 +1,11 @@
-### Start Date : 22/02/2026
-## 🗓️ Updated 6-Month AI/ML Plan — LangChain & NLP Upfront
+### 🚩 Tech Leadership Tracker: February 2026
 
-| Month | Primary Focus                    | Key Topics & Activities                                                                 |
-|-------|----------------------------------|------------------------------------------------------------------------------------------|
-| 1     | 💬 LangChain + NLP Fundamentals  | Document loaders, chains, prompts, TF-IDF, lemmatization, spam classifier               |
-| 2     | 🔢 Math Foundations + ML Basics  | Linear Algebra, Bayes theorem, Regression, Loss Functions                               |
-| 3     | 🧠 ML Algorithms & Evaluation     | Classification, Decision Trees, k-NN, overfitting, cross-validation                    |
-| 4     | 🔍 Unsupervised Learning & PCA   | Clustering (k-means), Hierarchical methods, PCA, Silhouette scores                     |
-| 5     | 🧬 Deep Learning Foundations      | Neural networks, activation functions, backpropagation, MNIST project                  |
-| 6     | 🚀 Advanced NLP + Model Deployment | HuggingFace, attention, Transformers, LangChain agents, Gradio/Streamlit deployment    |
-
----
-
+| Day | Date | Topic | Resource & Tools | Status | Reality Check |
+| --- | --- | --- | --- | --- | --- |
+| **01** | Feb 22 | **Linear Regression** | [Scikit-Learn Docs](https://scikit-learn.org/), DataCamp | ✅ **ACTIVE** | Started strong. |
+| **02** | Feb 23 | `ZERO` | None | ❌ **FAILED** | Discipline slipped. |
+| **03** | Feb 24 | `ZERO` | None | ❌ **FAILED** | Potential is being wasted. |
+| **04** | Feb 25 | `ZERO` | None | ❌ **FAILED** | Goal: "Top Tech Leader" — status: stalling. |
+| **05** | Feb 26 | `ZERO` | None | ❌ **FAILED** | The "Average" trap is closing in. |
+| **06** | Feb 27 | `ZERO` | None | ❌ **FAILED** | The "Average" trap is closing in. |
+| **07** | Feb 28 | **Recovery Mode** | [StatQuest (LR)] | ⚡ **Active** | **Stop the bleed. Commit now.** |
