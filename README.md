@@ -8,4 +8,4 @@
 | **04** | Feb 25 | `ZERO` | None | ❌ **FAILED** | Goal: "Top Tech Leader" — status: stalling. |
 | **05** | Feb 26 | `ZERO` | None | ❌ **FAILED** | The "Average" trap is closing in. |
 | **06** | Feb 27 | `ZERO` | None | ❌ **FAILED** | The "Average" trap is closing in. |
-| **07** | Feb 28 | **Regularization** | [StatQuest (LR)] | ✅ **ACTIVE** | **Recover now.** |
+| **07** | Feb 28 | **Regularization** | [Notes](https://github.com/krdheeraj51/ai-systems-journal/blob/main/ai-ml/fundamental_of_ml/supervised_learning/regression.md) | ✅ **ACTIVE** | **Recover now.** |
