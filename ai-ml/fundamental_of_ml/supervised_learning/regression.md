@@ -107,13 +107,13 @@ To do this in Python, we use `cross_val_score`. Instead of getting one single  s
 from sklearn.model_selection import cross_val_score, KFold
 
 # 1. Define how many folds (e.g., 6)
-[cite_start]kf = KFold(n_splits=6, shuffle=True, random_state=42) [cite: 445]
+kf = KFold(n_splits=6, shuffle=True, random_state=42)
 
 # 2. Compute the scores
-[cite_start]cv_results = cross_val_score(reg, X, y, cv=kf) [cite: 447]
+cv_results = cross_val_score(reg, X, y, cv=kf)
 
 # 3. Look at the mean and standard deviation
-[cite_start]print(np.mean(cv_results), np.std(cv_results)) [cite: 453]
+print(np.mean(cv_results), np.std(cv_results))
 
 ```
 --- 
