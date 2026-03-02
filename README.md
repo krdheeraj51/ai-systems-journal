@@ -9,3 +9,5 @@
 | **05** | Feb 26 | `ZERO` | None | ❌ **FAILED** | The "Average" trap is closing in. |
 | **06** | Feb 27 | `ZERO` | None | ❌ **FAILED** | The "Average" trap is closing in. |
 | **07** | Feb 28 | **Regularization** | [Notes](https://github.com/krdheeraj51/ai-systems-journal/blob/main/ai-ml/fundamental_of_ml/supervised_learning/regression.md) | ✅ **ACTIVE** | **Recover now.** |
+| **08** | Mar 01 | `ZERO` | None | ❌ **FAILED** | Discipline slipped. |
+| **09** | Mar 02 | `ZERO` | None | ❌ **FAILED** | Potential is being wasted. |
