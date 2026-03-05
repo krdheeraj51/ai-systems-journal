@@ -13,4 +13,4 @@
 | **09** | Mar 02 | `ZERO` | None | ❌ **FAILED** | Potential is being wasted. |
 | **10** | Mar 03 | `ZERO` | None | ❌ **FAILED** |Goal: "Top Tech Leader" — status: stalling.  |
 | **11** | Mar 04 | `ZERO` | None | ❌ **FAILED** |  The "Average" trap is closing in. |
-| **12** | Mar 05 | **Regularization** | None | ✅ **ACTIVE** |  - Revised concept - Create task for Split Train and Test |
+| **12** | Mar 05 | **Regularization** | - Revised concept - Create task for Split Train and Test | ✅ **ACTIVE** |  **Recover now.** |
