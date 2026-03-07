@@ -15,3 +15,4 @@
 | **11** | Mar 04 | `ZERO` | None | ❌ **FAILED** |  The "Average" trap is closing in. |
 | **12** | Mar 05 | **Regularization** | - Revised concept <br>- Create task for Split Train and Test | ✅ **ACTIVE** |  **Recover now.** |
 | **13** | Mar 06 | **Regularization** | - Revised concept <br>- [Complete first Experiment](https://github.com/krdheeraj51/ai-systems-journal/tree/main/ai-ml/fundamental_of_ml/Experiments/iris-model-comparison) | ✅ **ACTIVE** |  **Mentain Flow** |
+| **14** | Mar 07 | **Regularization** | - Revised concept | ✅ **ACTIVE** |  **Mentain Flow** |
