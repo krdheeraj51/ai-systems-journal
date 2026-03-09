@@ -2,7 +2,7 @@
 
 | Day | Date | Topic | Resource & Tools | Status | Reality Check |
 | --- | --- | --- | --- | --- | --- |
-| **16** | Mar 09 | **Liner Regression** | - Revised concept | ✅ **ACTIVE** |  **Mentain Flow** |
+| **16** | Mar 09 | **Liner Regression** | - Revised concept <br> - Created 3 Tasks for Supervised Learning | ✅ **ACTIVE** |  **Mentain Flow** |
 | **15** | Mar 08 | **Supeervisd Learning** | - Revised concept | ✅ **ACTIVE** |  **Mentain Flow** |
 | **14** | Mar 07 | **Regularization** | - Revised concept | ✅ **ACTIVE** |  **Mentain Flow** |
 | **13** | Mar 06 | **Regularization** | - Revised concept <br>- [Complete first Experiment](https://github.com/krdheeraj51/ai-systems-journal/tree/main/ai-ml/fundamental_of_ml/Experiments/iris-model-comparison) | ✅ **ACTIVE** |  **Mentain Flow** |
