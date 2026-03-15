@@ -31,6 +31,22 @@ Let’s go over the **main components**:
 
 `PromptTemplate` is used for single-turn prompts, while `ChatPromptTemplate` is designed for multi-turn conversations, allowing you to define system, user, and assistant messages separately.
 
+### What is difference between ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate?
+
+`ChatPromptTemplate` is a container for multiple message templates, while `SystemMessagePromptTemplate` and `HumanMessagePromptTemplate` are specific types of message templates used within a `ChatPromptTemplate` to define system and user messages, respectively.
+
+### What is difference between LLMChain and ChatLLMChain?   
+
+`LLMChain` is a general chain that can work with any prompt, while `ChatLLMChain` is specifically designed for use with `ChatPromptTemplate`, allowing for multi-turn conversations.
+
+### What is difference between Agent and Tool?
+
+An `Agent` is a higher-level construct that can choose which `Tool` to use based on the context, while a `Tool` is a specific function or capability that the agent can call to perform a task (e.g., calculator, web search).
+
+### What is difference between Agent and Chain?
+
+An `Agent` is a decision-maker that can choose which `Chain` or `Tool` to use based on the context, while a `Chain` is a predefined sequence of steps or tasks that can be executed by the agent.
+
 
 
 
