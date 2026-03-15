@@ -2,6 +2,10 @@
 
 | Day | Date | Topic | Resource & Tools | Status | Reality Check |
 | --- | --- | --- | --- | --- | --- |
+| **21** | Mar 14 | `ZERO` | None | ❌ **FAILED** |  The "Average" trap is closing in. |
+| **20** | Mar 13 | `ZERO` | None | ❌ **FAILED** |Goal: "Top Tech Leader" — status: stalling.  |
+| **19** | Mar 22 | `ZERO` | None | ❌ **FAILED** | Potential is being wasted. |
+| **18** | Mar 11 | `ZERO` | None | ❌ **FAILED** | Discipline slipped. |
 | **17** | Mar 10 | **Liner Regression** | - Revised concept <br> - Do some coding for model comparision | ✅ **ACTIVE** |  **Mentain Flow** |
 | **16** | Mar 09 | **Liner Regression** | - Revised concept <br> - Created 3 Tasks for Supervised Learning | ✅ **ACTIVE** |  **Mentain Flow** |
 | **15** | Mar 08 | **Supeervisd Learning** | - Revised concept | ✅ **ACTIVE** |  **Mentain Flow** |
