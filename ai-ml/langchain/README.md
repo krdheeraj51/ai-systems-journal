@@ -27,4 +27,11 @@ Let’s go over the **main components**:
 | `Chain`    | A sequence of steps or tasks                                 | A workflow or pipeline        |
 
 ---
+### What is difference between promptTemplate and ChatPromptTemplate? 
+
+`PromptTemplate` is used for single-turn prompts, while `ChatPromptTemplate` is designed for multi-turn conversations, allowing you to define system, user, and assistant messages separately.
+
+
+
+
 
