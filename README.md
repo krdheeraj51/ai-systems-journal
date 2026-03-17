@@ -2,6 +2,9 @@
 
 | Day | Date | Topic | Resource & Tools | Status | Reality Check |
 | --- | --- | --- | --- | --- | --- |
+| **24** | Mar 17 | Practicing problems | ML | ✅ **ACTIVE** |  **Mentain Flow** |
+| **23** | Mar 16 | Practicing problems | ML | ✅ **ACTIVE** |  **Mentain Flow** |
+| **22** | Mar 15 | LangChain | None | ✅ **ACTIVE** | **Mentain Flow** |
 | **21** | Mar 14 | `ZERO` | None | ❌ **FAILED** |  The "Average" trap is closing in. |
 | **20** | Mar 13 | `ZERO` | None | ❌ **FAILED** |Goal: "Top Tech Leader" — status: stalling.  |
 | **19** | Mar 22 | `ZERO` | None | ❌ **FAILED** | Potential is being wasted. |
