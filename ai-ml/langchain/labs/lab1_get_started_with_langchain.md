@@ -1,6 +1,3 @@
-# ✅ Lab 1: Getting Started with LangChain v0.2 + Azure OpenAI (LCEL Basics)
-
-````markdown
 # 🧪 Lab 1: Introduction to LangChain v0.2 + Azure OpenAI using LCEL
 
 ## 🎯 Objective
