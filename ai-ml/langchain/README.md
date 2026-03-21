@@ -2,7 +2,7 @@
 
 | Lab Number | Lab Title                                       | Links                                             |
 |------------|------------------------------------------------|---------------------------------------------------|
-| 1          | Get Started with LangChain                     | [lab1](lab1_get_started_with_langchain.md)       |
+| 1          | Introduction to LangChain v0.2 + Azure OpenAI using LCEL                     | [lab1](lab1_get_started_with_langchain.md)       |
 | 2          | LCEL Deep Dive                                 | [lab2](lab2_lcel_deep_dive.md)                    |
 | 3          | LCEL Runnable Deep Dive                        | [lab3](lab3_lcel_runnable_deep_dive.md)           |
 | 4          | Prompt Engineering Mastery                      | [lab4](lab4_prompt_engineering_mastery.md)       |
