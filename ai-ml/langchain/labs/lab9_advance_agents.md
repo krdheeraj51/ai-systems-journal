@@ -101,6 +101,12 @@ agent_executor = AgentExecutor(
     verbose=True,
     max_iterations=5
 )
+
+# with latest version of langchain AgenExecutor is no more part of it. we don't need to follow above setp.
+# so here we neeed take care about only sequence and then after we directly invoke 
+agent_chain = prompt | model_with_tools
+
+
 ```
 
 ---
@@ -108,7 +114,13 @@ agent_executor = AgentExecutor(
 ## 🧪 Step 6: Multi-Step Query
 
 ```python id="lab9_code5"
+# now agent_executor is not used as AgenExecutor is no more part of latest version of langchain 
+# not used in latest version 
 response = agent_executor.invoke({
+    "input": "Add 5 and 3, then multiply the result by 10, then square it"
+})
+# we can directly invoke it 
+response = agent_chain.invoke({
     "input": "Add 5 and 3, then multiply the result by 10, then square it"
 })
 
