@@ -42,4 +42,6 @@ This component is used to chain different components together in a logical flow 
 This is a newer component that focuses on deploying applications created using Langchain, facilitating their use in production environments.
 By understanding and implementing these components, you will build a solid foundation for developing applications using
 
+---
+
 ![alt text](Important+Component+Of+Langchain.png)
