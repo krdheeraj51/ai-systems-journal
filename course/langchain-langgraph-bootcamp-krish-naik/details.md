@@ -21,6 +21,7 @@ hands-on implementation instead of only watching videos.
   Sunday      Course Learning + Project + Weekly Summary   3 Hours
 
 **Total:** \~9.75 hrs/week - New learning: **6 hours (Weekend)** -
+
 Revision & Practice: **3.75 hours (Weekdays)**
 
 ------------------------------------------------------------------------
@@ -42,13 +43,22 @@ For every video:
 
 **Videos:** 47--59
 
-Topics: - LangChain setup - Document Loaders - Text Splitters -
-Embeddings - FAISS - ChromaDB - Vector Retrieval
+Topics: 
+
+- LangChain setup 
+- Document Loaders 
+- Text Splitters 
+- Embeddings 
+- FAISS 
+- ChromaDB 
+- Vector Retrieval
 
 Weekend Target: - Finish 4--6 videos each weekend.
 
-Weekday Practice: - Build mini RAG examples. - Revise notes. - Practice
-different loaders.
+**Weekday Practice: **
+- Build mini RAG examples. 
+- Revise notes. 
+- Practice different loaders.
 
 ------------------------------------------------------------------------
 
@@ -56,9 +66,14 @@ different loaders.
 
 **Videos:** 60--65
 
-Focus: - OpenAI - Ollama - LangSmith - Chains - Retrievers
+**Focus**: 
+- OpenAI 
+- Ollama 
+- LangSmith 
+- Chains 
+- Retrievers
 
-Mini Project: - PDF Question Answering
+**Mini Project:** - PDF Question Answering
 
 ------------------------------------------------------------------------
 
@@ -66,10 +81,13 @@ Mini Project: - PDF Question Answering
 
 **Videos:** 66--68
 
-Practice: - Prompt Templates - RunnableSequence - Output Parsers -
-LangServe Deployment
+**Practice:** 
+- Prompt Templates 
+- RunnableSequence 
+- Output Parsers 
+- LangServe Deployment
 
-Mini Project: - Simple REST API using LangServe
+**Mini Project:** - Simple REST API using LangServe
 
 ------------------------------------------------------------------------
 
@@ -77,9 +95,12 @@ Mini Project: - Simple REST API using LangServe
 
 **Videos:** 69--72
 
-Practice: - Chat History - Memory - Retriever Integration
+**Practice:** 
+- Chat History 
+- Memory 
+- Retriever Integration
 
-Mini Project: - Context-aware chatbot
+**Mini Project:** - Context-aware chatbot
 
 ------------------------------------------------------------------------
 
@@ -87,9 +108,13 @@ Mini Project: - Context-aware chatbot
 
 **Videos:** 73 onwards
 
-Practice: - AI Agents - Agentic AI - Tools - Multi-step reasoning
+**Practice:** 
+- AI Agents 
+- Agentic AI 
+- Tools 
+- Multi-step reasoning
 
-Mini Project: - Research Assistant
+**Mini Project:** - Research Assistant
 
 ------------------------------------------------------------------------
 
