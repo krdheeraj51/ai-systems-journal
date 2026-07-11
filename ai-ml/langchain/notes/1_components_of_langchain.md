@@ -1,6 +1,10 @@
 ## Important components of Langchain
 ---
 
+![alt text](Important+Component+Of+Langchain.png)
+
+---
+
 ### Data Ingestion:
 
 This is the process of loading data from various sources, often referred to as document loaders. You will learn how to read different types of files and convert them into documents for further processing.
@@ -43,5 +47,3 @@ This is a newer component that focuses on deploying applications created using L
 By understanding and implementing these components, you will build a solid foundation for developing applications using
 
 ---
-
-![alt text](Important+Component+Of+Langchain.png)
