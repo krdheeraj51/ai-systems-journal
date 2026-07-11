@@ -53,9 +53,9 @@ Topics:
 - ChromaDB 
 - Vector Retrieval
 
-Weekend Target: - Finish 4--6 videos each weekend.
+**Weekend Target:** - Finish 4--6 videos each weekend.
 
-**Weekday Practice: **
+**Weekday Practice:**
 - Build mini RAG examples. 
 - Revise notes. 
 - Practice different loaders.
